@@ -1,0 +1,102 @@
+.section{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+}
+
+.section .caja1{
+    background-color: blue;
+    align-self: flex-start;
+}
+
+.section .caja2{
+    background-color: crimson;
+}
+.section .caja3{
+    background-color: green;
+}
+
+.section2{
+    width: 50px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.section2 .caja1{
+    background-color: blue;
+}
+
+.section2 .caja2{
+    background-color: crimson;
+}
+.section2 .caja3{
+    background-color: green;
+}
+
+.section3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.section3 .caja1{
+    background-color: blue;
+    flex-basis: 0;
+    flex-flow: 1;
+    flex-shrink: 1;
+}
+
+.section3 .caja2{
+    background-color: crimson;
+    flex-basis: 0;
+    flex-flow: 1;
+    flex-shrink: 1;
+}
+.section3 .caja3{
+    background-color: green;
+    flex-basis: 0;
+    flex-flow: 1;
+    flex-shrink: 1;
+}
+
+.section4{
+    width: 500px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+.section4 .caja1{
+    background-color: blue;
+    order: 1;
+}
+
+.section4 .caja2{
+    background-color: crimson;
+}
+.section4 .caja3{
+    background-color: green;
+}
